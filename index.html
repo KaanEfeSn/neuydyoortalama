@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Not Hesaplayıcı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Not Hesaplama</h1>
+
+        <div style="margin-top: 20px;"></div>
+
+        <label for="v1">Vize 1 (0-100):</label>
+        <input type="number" id="v1" min="0" max="100" placeholder="0-100">
+
+        <label for="v2">Vize 2 (0-100):</label>
+        <input type="number" id="v2" min="0" max="100" placeholder="0-100">
+
+        <label for="v3">Vize 3 (0-100):</label>
+        <input type="number" id="v3" min="0" max="100" placeholder="0-100">
+
+        <label for="v4">Vize 4 (0-100):</label>
+        <input type="number" id="v4" min="0" max="100" placeholder="0-100">
+
+        <label for="k1">Ksyk 1 (0-100):</label>
+        <input type="number" id="k1" min="0" max="100" placeholder="0-100">
+
+        <label for="k2">Ksyk 2 (0-100):</label>
+        <input type="number" id="k2" min="0" max="100" placeholder="0-100">
+
+        <label for="k3">Ksyk 3 (0-100):</label>
+        <input type="number" id="k3" min="0" max="100" placeholder="0-100">
+
+        <label for="k4">Ksyk 4 (0-100):</label>
+        <input type="number" id="k4" min="0" max="100" placeholder="0-100">
+
+        <label for="odev">Ödev Puanı (0-20):</label>
+        <input type="number" id="odev" min="0" max="20" placeholder="0-20">
+
+        <label for="yokdil">YÖKDİL Puanı (0-100):</label>
+        <input type="number" id="yokdil" min="0" max="100" placeholder="0-100">
+
+        <button onclick="hesapla()">Hesapla</button>
+
+        <div id="sonuc"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
